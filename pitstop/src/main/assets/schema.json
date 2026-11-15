@@ -1,0 +1,56 @@
+{
+  "packageName": "ai.pleos.pitstop",
+  "appDescription": "Voice-first public toilet detours: compare available time-to-toilet estimates, find another public toilet when closed, and resume the original destination.",
+  "invokeWord": "피트스탑",
+  "version": "0.4.0",
+  "actionCalls": [
+    {
+      "type": "function",
+      "function": {
+        "component": "activity",
+        "name": "PITSTOP_FIND_RESTROOM",
+        "description": "For urgent requests such as 급똥 or 화장실 안내해줘, find an unrestricted public toilet and request navigation to verified parking. Remember the original destination first.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "accessible": {
+              "type": "boolean",
+              "description": "Require a wheelchair-accessible restroom."
+            },
+            "alternative": {
+              "type": "boolean",
+              "description": "Mark the current stop unavailable and find another public toilet (same behavior as PITSTOP_NEXT_RESTROOM)."
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "component": "activity",
+        "name": "PITSTOP_NEXT_RESTROOM",
+        "description": "When the user says 여기 닫혔어, 이용할 수 없어, or 다른 곳으로 안내해줘, exclude the current stop for this session and request another public toilet from the current vehicle location.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "component": "activity",
+        "name": "PITSTOP_RESUME_DESTINATION",
+        "description": "When the user says 원래 목적지로 가자 or 기존 목적지 안내 이어줘, request a new route to the destination remembered before the public toilet detour. Report when no original destination was available.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    }
+  ]
+}

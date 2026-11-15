@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 2,
+  "mode": "real",
+  "label": "수원 공중화장실 시범 데이터 · 4개 시설 · 운영시간·빈자리 미확인",
+  "dataSources": [
+    {
+      "url": "https://www.suwon.go.kr/sw-www/deptHome/dep_env/env_03/env_04_04/env_04_04_02.jsp",
+      "fields": "화장실 명칭, 소재지, 장애인 화장실 유무",
+      "license": "공공누리 출처표시",
+      "publishedDate": "2026-09-01"
+    },
+    {
+      "url": "https://parking.suwonudc.co.kr/parking/parkingMap",
+      "fields": "공영 주차장 명칭, 대표좌표",
+      "retrievedDate": "2026-11-15",
+      "note": "현재 주차 가능 대수는 복제하지 않음. 좌표는 차량 진입구 보증이 아님."
+    }
+  ],
+  "pairs": [
+    {
+      "id": "suwon-22200",
+      "toiletName": "영화동공영주차장 화장실",
+      "parkingName": "영화동 지하",
+      "address": "수원시 장안구 수성로382번길 30",
+      "parkingPoint": {
+        "latitude": 37.2931528360272,
+        "longitude": 127.014115988153
+      },
+      "coordinatesVerified": true,
+      "publicAccess": true,
+      "accessibleToilet": true,
+      "toiletHours": {
+        "known": false
+      },
+      "parkingHours": {
+        "known": false
+      },
+      "walkingMeters": null,
+      "walkingNote": "같은 시설 또는 공원 내 화장실. 주차장 대표좌표이며 입구와 보행 동선은 현장에서 확인해 주세요.",
+      "fee": "공영 유료 · 현장 요금 확인",
+      "source": "수원시 · 수원도시공사",
+      "sourceDate": "2026-09-01",
+      "facilityKind": "PUBLIC_TOILET",
+      "accessRestriction": "NONE"
+    },
+    {
+      "id": "suwon-21600",
+      "toiletName": "광교주차시설내 화장실",
+      "parkingName": "광교 공영",
+      "address": "수원시 장안구 광교산로 159",
+      "parkingPoint": {
+        "latitude": 37.3013145429575,
+        "longitude": 127.030790611364
+      },
+      "coordinatesVerified": true,
+      "publicAccess": true,
+      "accessibleToilet": true,
+      "toiletHours": {
+        "known": false
+      },
+      "parkingHours": {
+        "known": false
+      },
+      "walkingMeters": null,
+      "walkingNote": "같은 시설 또는 공원 내 화장실. 주차장 대표좌표이며 입구와 보행 동선은 현장에서 확인해 주세요.",
+      "fee": "공영 유료 · 현장 요금 확인",
+      "source": "수원시 · 수원도시공사",
+      "sourceDate": "2026-09-01",
+      "facilityKind": "PUBLIC_TOILET",
+      "accessRestriction": "NONE"
+    },
+    {
+      "id": "suwon-25000",
+      "toiletName": "전망대 화장실",
+      "parkingName": "광교 원천호수",
+      "address": "수원시 영통구 광교호수로 75",
+      "parkingPoint": {
+        "latitude": 37.2766,
+        "longitude": 127.0662
+      },
+      "coordinatesVerified": true,
+      "publicAccess": true,
+      "accessibleToilet": true,
+      "toiletHours": {
+        "known": false
+      },
+      "parkingHours": {
+        "known": false
+      },
+      "walkingMeters": null,
+      "walkingNote": "같은 시설 또는 공원 내 화장실. 주차장 대표좌표이며 입구와 보행 동선은 현장에서 확인해 주세요.",
+      "fee": "공영 유료 · 현장 요금 확인",
+      "source": "수원시 · 수원도시공사",
+      "sourceDate": "2026-09-01",
+      "facilityKind": "PUBLIC_TOILET",
+      "accessRestriction": "NONE"
+    },
+    {
+      "id": "suwon-25600",
+      "toiletName": "신대호수 화장실",
+      "parkingName": "신대호수",
+      "address": "수원시 영통구 광교호수로 214",
+      "parkingPoint": {
+        "latitude": 37.2844839388192,
+        "longitude": 127.077399865709
+      },
+      "coordinatesVerified": true,
+      "publicAccess": true,
+      "accessibleToilet": true,
+      "toiletHours": {
+        "known": false
+      },
+      "parkingHours": {
+        "known": false
+      },
+      "walkingMeters": null,
+      "walkingNote": "같은 시설 또는 공원 내 화장실. 주차장 대표좌표이며 입구와 보행 동선은 현장에서 확인해 주세요.",
+      "fee": "공영 유료 · 현장 요금 확인",
+      "source": "수원시 · 수원도시공사",
+      "sourceDate": "2026-09-01",
+      "facilityKind": "PUBLIC_TOILET",
+      "accessRestriction": "NONE"
+    }
+  ]
+}

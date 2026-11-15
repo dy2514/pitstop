@@ -1,0 +1,5 @@
+# Example only. Real signing.properties and keys must stay private.
+storeFile=/absolute/path/to/your-release.jks
+keyAlias=your-key-alias
+storePassword=REPLACE_LOCALLY
+keyPassword=REPLACE_LOCALLY

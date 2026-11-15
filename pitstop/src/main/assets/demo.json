@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 2,
+  "mode": "demo",
+  "label": "가상 시설 시연",
+  "origin": {
+    "latitude": 37.28,
+    "longitude": 127.01
+  },
+  "pairs": [
+    {
+      "id": "demo-a",
+      "toiletName": "가상 문화센터 화장실",
+      "parkingName": "가상 문화센터 주차장",
+      "address": "실제 장소가 아닌 시연용 시설",
+      "parkingPoint": {
+        "latitude": 37.281,
+        "longitude": 127.01
+      },
+      "coordinatesVerified": false,
+      "publicAccess": true,
+      "accessibleToilet": true,
+      "toiletHours": {
+        "known": true,
+        "windows": [
+          {
+            "days": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "startMinute": 0,
+            "endMinute": 1440
+          }
+        ]
+      },
+      "parkingHours": {
+        "known": true,
+        "windows": [
+          {
+            "days": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "startMinute": 0,
+            "endMinute": 1440
+          }
+        ]
+      },
+      "walkingMeters": 380,
+      "walkingNote": "시연용 도보 거리. 실제 보행 동선이 아닙니다.",
+      "fee": "예제 요금",
+      "source": "자체 제작 가상 데이터",
+      "sourceDate": "2026-11-15",
+      "facilityKind": "PUBLIC_TOILET",
+      "accessRestriction": "NONE"
+    },
+    {
+      "id": "demo-b",
+      "toiletName": "가상 공원 화장실",
+      "parkingName": "가상 공원 주차장",
+      "address": "실제 장소가 아닌 시연용 시설",
+      "parkingPoint": {
+        "latitude": 37.283,
+        "longitude": 127.011
+      },
+      "coordinatesVerified": false,
+      "publicAccess": true,
+      "accessibleToilet": true,
+      "toiletHours": {
+        "known": true,
+        "windows": [
+          {
+            "days": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "startMinute": 0,
+            "endMinute": 1440
+          }
+        ]
+      },
+      "parkingHours": {
+        "known": true,
+        "windows": [
+          {
+            "days": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "startMinute": 0,
+            "endMinute": 1440
+          }
+        ]
+      },
+      "walkingMeters": 60,
+      "walkingNote": "시연용 도보 거리. 실제 보행 동선이 아닙니다.",
+      "fee": "예제 요금",
+      "source": "자체 제작 가상 데이터",
+      "sourceDate": "2026-11-15",
+      "facilityKind": "PUBLIC_TOILET",
+      "accessRestriction": "NONE"
+    },
+    {
+      "id": "demo-c",
+      "toiletName": "가상 복합시설 화장실",
+      "parkingName": "가상 복합시설 주차장",
+      "address": "실제 장소가 아닌 시연용 시설",
+      "parkingPoint": {
+        "latitude": 37.282,
+        "longitude": 127.016
+      },
+      "coordinatesVerified": false,
+      "publicAccess": true,
+      "accessibleToilet": false,
+      "toiletHours": {
+        "known": false
+      },
+      "parkingHours": {
+        "known": true,
+        "windows": [
+          {
+            "days": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "startMinute": 0,
+            "endMinute": 1440
+          }
+        ]
+      },
+      "walkingMeters": null,
+      "walkingNote": "시연용 도보 거리. 실제 보행 동선이 아닙니다.",
+      "fee": "예제 요금",
+      "source": "자체 제작 가상 데이터",
+      "sourceDate": "2026-11-15",
+      "facilityKind": "PUBLIC_TOILET",
+      "accessRestriction": "NONE"
+    },
+    {
+      "id": "demo-closed",
+      "toiletName": "가상 휴관시설 화장실",
+      "parkingName": "가상 휴관시설 주차장",
+      "address": "실제 장소가 아닌 시연용 시설",
+      "parkingPoint": {
+        "latitude": 37.2805,
+        "longitude": 127.01
+      },
+      "coordinatesVerified": false,
+      "publicAccess": true,
+      "accessibleToilet": true,
+      "toiletHours": {
+        "known": true,
+        "windows": []
+      },
+      "parkingHours": {
+        "known": true,
+        "windows": [
+          {
+            "days": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "startMinute": 0,
+            "endMinute": 1440
+          }
+        ]
+      },
+      "walkingMeters": 20,
+      "walkingNote": "시연용 도보 거리. 실제 보행 동선이 아닙니다.",
+      "fee": "예제 요금",
+      "source": "자체 제작 가상 데이터",
+      "sourceDate": "2026-11-15",
+      "facilityKind": "PUBLIC_TOILET",
+      "accessRestriction": "NONE"
+    },
+    {
+      "id": "demo-private",
+      "toiletName": "가상 입주민 전용 화장실",
+      "parkingName": "가상 입주민 전용 주차장",
+      "address": "실제 장소가 아닌 시연용 시설",
+      "parkingPoint": {
+        "latitude": 37.2803,
+        "longitude": 127.01
+      },
+      "coordinatesVerified": false,
+      "publicAccess": false,
+      "accessibleToilet": true,
+      "toiletHours": {
+        "known": true,
+        "windows": [
+          {
+            "days": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "startMinute": 0,
+            "endMinute": 1440
+          }
+        ]
+      },
+      "parkingHours": {
+        "known": true,
+        "windows": [
+          {
+            "days": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "startMinute": 0,
+            "endMinute": 1440
+          }
+        ]
+      },
+      "walkingMeters": 10,
+      "walkingNote": "시연용 도보 거리. 실제 보행 동선이 아닙니다.",
+      "fee": "예제 요금",
+      "source": "자체 제작 가상 데이터",
+      "sourceDate": "2026-11-15",
+      "facilityKind": "PUBLIC_TOILET",
+      "accessRestriction": "CUSTOMER_ONLY"
+    }
+  ]
+}
